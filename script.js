@@ -249,34 +249,7 @@ Enviado através do site.`;
     });
 
     // Mobile menu toggle (if needed in future)
-    const createMobileMenu = () => {
-        const nav = document.querySelector('.nav');
-        const menuToggle = document.createElement('button');
-        menuToggle.className = 'mobile-menu-toggle';
-        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
-        menuToggle.style.display = 'none';
-        
-        // Add mobile styles
-        const style = document.createElement('style');
-        style.textContent = `
-            @media (max-width: 768px) {
-                .mobile-menu-toggle {
-                    display: block !important;
-                    background: none;
-                    border: none;
-                    font-size: 1.5rem;
-                    color: #2563eb;
-                    cursor: pointer;
-                }
-            }
-        `;
-        document.head.appendChild(style);
-        
-        nav.appendChild(menuToggle);
-    };
 
-    // Initialize mobile menu
-    createMobileMenu();
     
     document.body.appendChild(scrollToTopBtn);
     
