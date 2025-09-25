@@ -280,7 +280,26 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
+.floating-card-right {
+    position: absolute;
+    bottom: 100px;
+    right: -20px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
 .floating-card i {
+    font-size: 2rem;
+    color: #2563eb;
+}
+
+.floating-card-right i {
     font-size: 2rem;
     color: #2563eb;
 }
@@ -291,7 +310,19 @@ body {
     font-weight: 600;
 }
 
+.floating-card-right h4 {
+    margin: 0;
+    color: #1e293b;
+    font-weight: 600;
+}
+
 .floating-card p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.floating-card-right p {
     margin: 0;
     color: #64748b;
     font-size: 0.9rem;
@@ -1070,7 +1101,7 @@ body {
     }
     
     .hero-content {
-        padding-bottom: 200px;
+        padding-bottom: 300px;
     }
 
     .stats {
@@ -1138,7 +1169,7 @@ body {
 @media (max-width: 375px) {
      
     .hero-content {
-        padding-bottom: 300px;
+        padding-bottom: 350px;
     }
 }
 
