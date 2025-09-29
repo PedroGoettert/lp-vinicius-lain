@@ -1006,6 +1006,16 @@ body {
     }
 
     .hero-image {
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .floating-card-right{
+        display: none;
+    }
+
+    .floating-card {
         display: none;
     }
     
