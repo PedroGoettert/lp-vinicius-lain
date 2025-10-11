@@ -283,7 +283,7 @@ body {
 .floating-card-right {
     position: absolute;
     bottom: 100px;
-    right: -20px;
+    right: 0px;
     background: white;
     padding: 20px;
     border-radius: 15px;
