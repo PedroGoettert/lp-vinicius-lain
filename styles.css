@@ -816,7 +816,7 @@ body {
 
 .contact-content {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     justify-content: center;
     gap: 60px;
 }
@@ -824,6 +824,7 @@ body {
 .contact-info {
     display: flex;
     flex-direction: row;
+    width: 100vw;
     gap: 30px;
 
 }
@@ -839,7 +840,8 @@ body {
     display: flex;
     flex:1;
     gap: 20px;
-    align-items: flex-start;
+  
+    justify-content: center;
 }
 
 .contact-item i {
